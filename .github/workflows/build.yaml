@@ -68,5 +68,5 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/demo_deploydocker:latest
 
-      - name: Notify deployment success
-        run: echo "Image pushed with tag: latest"
+      - name: Notify deployment
+        run: echo ${{ steps.docker_build.outputs.digest }}
