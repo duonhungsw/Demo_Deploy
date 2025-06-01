@@ -29,3 +29,4 @@ E:\Code tùm lum\DotNet\Demo\Demo_DeployDocker\Demo_DeployDocker\obj\Debug\net8.
 E:\Code tùm lum\DotNet\Demo\Demo_DeployDocker\Demo_DeployDocker\obj\Debug\net8.0\Demo_DeployDocker.pdb
 E:\Code tùm lum\DotNet\Demo\Demo_DeployDocker\Demo_DeployDocker\obj\Debug\net8.0\Demo_DeployDocker.genruntimeconfig.cache
 E:\Code tùm lum\DotNet\Demo\Demo_DeployDocker\Demo_DeployDocker\obj\Debug\net8.0\ref\Demo_DeployDocker.dll
+E:\Code tùm lum\DotNet\Demo\Demo_DeployDocker\Demo_DeployDocker\obj\Debug\net8.0\Demo_DeployDocker.sourcelink.json
