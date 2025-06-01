@@ -29,7 +29,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/demo_deploydocker:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/Demo_Deploy:latest
 
       - name: Notify deployment
         run: echo ${{ steps.docker_build.outputs.digest }}
