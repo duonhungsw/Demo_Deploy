@@ -25,9 +25,9 @@ jobs:
         id: docker_build
         with:
           context: .
-          file: ./DEMO_DEPLOYDOCKER/Dockerfile
+          file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/demo_deploydocker:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/demo_deploydocker:latest
 
       - name: Notify deployment
         run: echo ${{ steps.docker_build.outputs.digest }}
