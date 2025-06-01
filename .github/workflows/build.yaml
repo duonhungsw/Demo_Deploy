@@ -48,5 +48,4 @@ jobs:
           run: |
           echo "Digest: ${{ steps.docker_build.outputs.digest }}"
           echo "DOCKERHUB_USERNAME=${{ secrets.DOCKERHUB_USERNAME }}"
-          echo "DOCKERHUB_ACCESS_TOKEN=${{ secrets.DOCKERHUB_ACCESS_TOKEN }}"
 
