@@ -1,4 +1,4 @@
-name: DEMO_DEPLOYDOCKER
+name: demo_deploydocker
 on:
   push:
     branches: [main]
@@ -27,7 +27,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/DEMO_DEPLOYDOCKER:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/demo_deploydocker:latest
 
       - name: Notify deployment
         run: echo ${{ steps.docker_build.outputs.digest }}
