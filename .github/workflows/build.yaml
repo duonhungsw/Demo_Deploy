@@ -25,7 +25,7 @@ jobs:
         id: docker_build
         with:
           context: .
-          file: ./Dockerfile
+          file: ./DEMO_DEPLOYDOCKER/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/demo_deploydocker:latest
 
