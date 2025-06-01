@@ -42,3 +42,5 @@ jobs:
 
       - name: Notify deployment
         run: echo ${{ steps.docker_build.outputs.digest }}
+        run: echo "DOCKERHUB_USERNAME=${{ secrets.DOCKERHUB_USERNAME }}"
+        run: echo "DOCKERHUB_ACCESS_TOKEN=${{ secrets.DOCKERHUB_ACCESS_TOKEN }}"
